@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>TeachMate — Save Teachers Time</title>
+	<meta name="description" content="TeachMate is a teacher assistant that saves teachers time with planning, grading, and communication tools." />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect rx='24' width='128' height='128' fill='%231e40af'/%3E%3Ctext x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-size='72' font-family='Inter, Arial, sans-serif' fill='white'%3ET%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+	<header class="navbar glass">
+		<div class="container nav-inner">
+			<a href="#hero" class="brand">
+				<span class="brand-logo" aria-hidden="true">📘</span>
+				<span class="brand-text">TeachMate</span>
+			</a>
+			<nav class="nav-links" aria-label="Primary">
+				<a href="#hero">Home</a>
+				<a href="#solutions">Solutions</a>
+				<a href="#vision">Vision</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<div class="nav-actions">
+				<button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">
+					<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+					</svg>
+				</button>
+				<button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle menu" title="Menu">
+					<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<line x1="3" y1="12" x2="21" y2="12" />
+						<line x1="3" y1="6" x2="21" y2="6" />
+						<line x1="3" y1="18" x2="21" y2="18" />
+					</svg>
+				</button>
+			</div>
+		</div>
+		<div class="mobile-menu" id="mobileMenu" aria-label="Mobile Navigation">
+			<a href="#hero">Home</a>
+			<a href="#solutions">Solutions</a>
+			<a href="#vision">Vision</a>
+			<a href="#contact">Contact</a>
+		</div>
+	</header>
+
+	<main>
+		<section id="hero" class="section hero">
+			<div class="container grid-2">
+				<div class="hero-copy">
+					<h1>
+						Save Teachers Time
+						<span class="accent">— Your AI Teaching Assistant</span>
+					</h1>
+					<p class="lead">
+						TeachMate automates lesson planning, grading, and communication so you can
+						focus on what matters most: teaching.
+					</p>
+					<ul class="checks">
+						<li>Generate lesson plans in minutes</li>
+						<li>Auto-grade quizzes and assignments</li>
+						<li>Draft parent emails with one click</li>
+						<li>Centralize resources and templates</li>
+					</ul>
+					<div class="cta-row">
+						<a class="btn primary" href="#contact">Request early access</a>
+						<a class="btn ghost" href="#solutions">See how it works</a>
+					</div>
+				</div>
+				<div class="hero-card glass">
+					<div class="stat">
+						<div class="stat-value">10+ hrs</div>
+						<div class="stat-label">saved per week</div>
+					</div>
+					<div class="divider"></div>
+					<div class="stat">
+						<div class="stat-value">98%</div>
+						<div class="stat-label">teacher satisfaction</div>
+					</div>
+					<div class="divider"></div>
+					<div class="stat">
+						<div class="stat-value">2x</div>
+						<div class="stat-label">planning speed</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="solutions" class="section solutions">
+			<div class="container">
+				<h2 class="section-title">Solutions that work for you</h2>
+				<p class="section-subtitle">Everything you need to plan, teach, and communicate — faster.</p>
+				<div class="cards">
+					<article class="card glass">
+						<div class="card-icon" aria-hidden="true">🧠</div>
+						<h3>AI Lesson Planning</h3>
+						<p>Craft standards-aligned lesson plans, objectives, and activities tailored to your classroom.</p>
+					</article>
+					<article class="card glass">
+						<div class="card-icon" aria-hidden="true">✅</div>
+						<h3>Automated Grading</h3>
+						<p>Instantly grade quizzes and short answers with transparent rubrics and feedback.</p>
+					</article>
+					<article class="card glass">
+						<div class="card-icon" aria-hidden="true">✉️</div>
+						<h3>Communication Assistant</h3>
+						<p>Draft clear emails to parents and students in your voice in seconds.</p>
+					</article>
+					<article class="card glass">
+						<div class="card-icon" aria-hidden="true">📚</div>
+						<h3>Resource Hub</h3>
+						<p>Organize templates, handouts, and exemplars and share across your team.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="vision" class="section vision">
+			<div class="container grid-2">
+				<div class="vision-copy">
+					<h2 class="section-title">Our Vision</h2>
+					<p>
+						We believe every teacher deserves superpowers. TeachMate augments educators with
+						privacy-first AI that is safe, transparent, and aligned with classroom needs.
+					</p>
+					<ul class="bullets">
+						<li>Human-in-the-loop by design</li>
+						<li>Secure by default, FERPA-conscious</li>
+						<li>Works across subjects and grade levels</li>
+					</ul>
+				</div>
+				<div class="vision-visual glass">
+					<div class="visual-grid">
+						<div class="visual-card">
+							<span>🔍</span>
+							<strong>Clarity</strong>
+						</div>
+						<div class="visual-card">
+							<span>🛡️</span>
+							<strong>Safety</strong>
+						</div>
+						<div class="visual-card">
+							<span>⚡</span>
+							<strong>Speed</strong>
+						</div>
+						<div class="visual-card">
+							<span>🤝</span>
+							<strong>Support</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section contact">
+			<div class="container">
+				<h2 class="section-title">Get in touch</h2>
+				<p class="section-subtitle">Have questions or want to join the beta? Send us a note.</p>
+				<form id="contactForm" class="glass form" novalidate>
+					<div class="form-row">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="Your full name" required />
+						<small class="error" data-for="name"></small>
+					</div>
+					<div class="form-row">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="you@school.edu" required />
+						<small class="error" data-for="email"></small>
+					</div>
+					<div class="form-row">
+						<label for="message">Message</label>
+						<textarea id="message" name="message" placeholder="How can we help?" rows="5" required></textarea>
+						<small class="error" data-for="message"></small>
+					</div>
+					<div class="form-actions">
+						<button type="submit" class="btn primary">Send message</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container footer-inner">
+			<div class="brand">
+				<span class="brand-logo" aria-hidden="true">📘</span>
+				<span class="brand-text">TeachMate</span>
+			</div>
+			<nav class="footer-links" aria-label="Footer">
+				<a href="#hero">Home</a>
+				<a href="#solutions">Solutions</a>
+				<a href="#vision">Vision</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<div class="socials">
+				<a class="icon-btn" href="#" aria-label="Twitter" title="Twitter">
+					<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 5.8c-.7.3-1.5.6-2.3.7.8-.5 1.4-1.2 1.7-2.2-.7.4-1.6.8-2.5 1-1.5-1.6-4.3-1.3-5.6.7-.8 1.2-.8 2.6-.2 3.7-3.1-.1-5.9-1.7-7.8-4.1-1 1.8-.5 4 1.2 5.2-.6 0-1.2-.2-1.7-.5 0 2.1 1.5 3.9 3.5 4.3-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 1.8 2.3 3.1 4.3 3.2-1.6 1.3-3.7 2-5.8 2h-.6c2.1 1.3 4.5 2.1 7.1 2.1 8.5 0 13.2-7.4 13.2-13.8v-.6c.9-.7 1.6-1.4 2.2-2.3z"/></svg>
+				</a>
+				<a class="icon-btn" href="#" aria-label="LinkedIn" title="LinkedIn">
+					<svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.1c.5-1 1.8-2.1 3.7-2.1 3.9 0 4.6 2.6 4.6 6v7.5h-4V15.6c0-2.1 0-4.8-2.9-4.8s-3.3 2.2-3.3 4.7V24h-4V8.5h4z"/></svg>
+				</a>
+			</div>
+		</div>
+		<div class="legal">
+			<p>© <span id="year"></span> TeachMate. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+	<script src="script.js"></script>
+</body>
+</html>
